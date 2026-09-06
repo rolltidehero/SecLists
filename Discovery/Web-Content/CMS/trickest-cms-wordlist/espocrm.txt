@@ -1582,6 +1582,7 @@ application/Espo/Repositories/Integration.php
 application/Espo/Repositories/Portal.php
 application/Espo/Repositories/ScheduledJob.php
 application/Espo/Repositories/PhoneNumber.php
+application/Espo/Repositories/Settings.php
 application/Espo/Repositories/ArrayValue.php
 application/Espo/Repositories/Job.php
 application/Espo/Repositories/EmailAddress.php
@@ -4402,6 +4403,7 @@ application/Espo/Core/Templates/Controllers/Base.php
 application/Espo/Core/Templates/Controllers/BasePlus.php
 application/Espo/Core/ApplicationUser.php
 application/Espo/Core/Api/MiddlewareProvider.php
+application/Espo/Core/Api/ConfigDataProvider.php
 application/Espo/Core/Api/ResponseComposer.php
 application/Espo/Core/Api/AuthBuilder.php
 application/Espo/Core/Api/Response.php
@@ -8374,6 +8376,7 @@ application/Espo/Resources/metadata/authenticationMethods/Oidc.json
 application/Espo/Resources/metadata/authenticationMethods/LDAP.json
 application/Espo/Resources/metadata/authenticationMethods/Hmac.json
 application/Espo/Resources/metadata/authenticationMethods/ApiKey.json
+application/Espo/Resources/metadata/entityAcl/Extension.json
 application/Espo/Resources/metadata/entityAcl/OAuthAccount.json
 application/Espo/Resources/metadata/entityAcl/ExternalAccount.json
 application/Espo/Resources/metadata/entityAcl/EmailAccount.json
@@ -8928,6 +8931,7 @@ application/Espo/Classes/Record/Hooks/PipelineStage/BeforeDelete.php
 application/Espo/Classes/Record/Hooks/Pipeline/AfterDelete.php
 application/Espo/Classes/Record/Hooks/Pipeline/AfterSave.php
 application/Espo/Classes/Record/Hooks/Pipeline/BeforeDelete.php
+application/Espo/Classes/Record/Note/OutputFilter.php
 application/Espo/Classes/Record/Note/UpdateInputFilter.php
 application/Espo/Classes/Record/User/OutputFilter.php
 application/Espo/Classes/Record/User/InputFilter.php
@@ -9408,6 +9412,7 @@ tests/unit/Espo/Core/Formula/EvaluatorTest.php
 tests/unit/Espo/Core/Formula/FormulaTest.php
 tests/unit/Espo/Core/Formula/ParserTest.php
 tests/unit/Espo/Core/Formula/ArgumentListTest.php
+tests/unit/Espo/Core/Api/ErrorOutputTest.php
 tests/unit/Espo/Core/Api/RequestTest.php
 tests/unit/Espo/Core/Api/AuthTest.php
 tests/unit/Espo/Core/Api/ResponseTest.php
